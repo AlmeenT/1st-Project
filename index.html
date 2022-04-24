@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>E- Millenial Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="intro">
+        <nav>
+            <img id="logo" src="SVGs/EMS.svg" alt="">
+            <a href="javascript:void(0)" id="introText"> Intro </a>
+            <a href="javascript:void(0)" id="aboutText" > About </a>
+            <a href="javascript:void(0)" id="shopText" > Shop </a>
+            
+            <button id="cart">
+                <img id="cartImage" src="SVGs/cart.svg" alt="">
+                <h3 id='cartNum'>0</h3>
+            </button>
+            <div id="cartModal">
+                <div id="cartContent" class="modalContent">
+                    <span class="close">&times;</span>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>S/N</th>
+                                <th>Item</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody id="productOnCart">
+                            
+                        </tbody>                       
+                    </table><br><br>
+                    <form action="">
+                        <input id="name" type="text" placeholder="Your Name">
+                        <p id="nameError"></p>
+                        <br><br>
+                        <input id="email"  placeholder="Your email">
+                        <p id="emailError"></p>
+                        <br><br>
+                        <input id="number"  placeholder="Your phone number">
+                        <p id="numberError"></p>
+                    </form><br><br>
+                    <p>Total Amount to be paid</p>
+                    <p> N 0 </p> <br>
+                    <button id="conShop">continue shopping</button>
+                    <button id="checkOut">checkout</button>
+                </div>
+            </div>
+        </nav>
+    
+        <div id="subIntro">
+            <div id="storeName">
+                <h1>THE E-</h1>
+                <h1>MILLENIAL</h1>
+                <h1>STORE</h1>
+            </div>
+            <img id="heroImage" src="Images/heroImage.png" alt="">
+        </div>
+        <button id="shopNow">SHOP NOW</button>
+    </div>
+
+    <div id="about">
+        <p>The Gadget Place is an hypothetical online store for gadgets we believe everyone, most especially millenials should have today. Our products ranges from phones, laptops, airpods, smartwatches and many more. Explore all our gadgets and choose the ones that suit you. </p>
+    </div>
+
+    <div id="shop">
+        <h1>OUR GADGETS</h1>
+        <div id="products">
+            <div class="product1" >
+                <img id="image1" src="Images/product1.png" alt="";">
+                <div class="overlay1"><h2>N50,000</h2></div>
+                <p id="product1"> SAMSUNG TV </p>
+                <button class="tocart" id="addProduct1" data-name="SAMSUNG" data-price='50,000'>ADD TO CART </button>
+            </div>
+            <div class='product1'>
+                <img id="image2" src="Images/product2.png" alt="">
+                <div class="overlay2"><h2>N100,000</h2></div>
+                <p id="product2">PIXEL 4a</p>
+                <button class="tocart" id="addproduct2" data-name="PIXEL 4a" data-price='100,000'>ADD TO CART</button> 
+            </div>
+            <div class='product1'>
+                <img id="image3" src="Images/product3.png" alt=""> 
+                <div class="overlay3"><h2>N150,000</h2></div>
+                <p id="product3">PS 5</p>
+                <button class="tocart" id="addproduct3" data-name="PS 5" data-price='150,000'>ADD TO CART</button>
+            </div>
+            <div class='product1'>
+                <img id="image4" src="Images/product4.png" alt="">
+                <div class="overlay4"><h2>N250,000</h2></div>
+                <p id="product4">MACBOOK AIR</p>
+                <button class="tocart" id="addproduct4" data-name="MACBOOK AIR" data-price='250,000'>ADD TO CART</button>
+            </div>
+            <div class='product1'>
+                <img id="image5" src="Images/product5.png" alt="">
+                <div class="overlay5"><h2>N300,000</h2></div>
+                <p id="product5">APPLE WATCH</p>
+                <button class="tocart" id="addproduct5" data-name="APPLE WATCH" data-price='300,000'>ADD TO CART</button>
+            </div>
+            <div class='product1'>
+                <img id="image6" src="Images/product6.png" alt="">
+                <div class="overlay6"><h2>N100,000</h2></div>
+                <p id="product6">AIR PODS</p>
+                <button class="tocart" id="addproduct6" data-name="AIR PODS" data-price='100,000'>ADD TO CART</button>
+            </div>
+        </div>    
+    </div>
+
+    <footer>
+        <img id="footerImage" src="SVGs/EMS.svg" alt="">
+        <h4 id="footerInfo"> Designed and created by a frontend ninja </h4>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
