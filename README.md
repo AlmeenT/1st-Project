@@ -1,10 +1,5 @@
-- 👋 Hi, I’m @AlmeenT
-- 👀 I’m interested in frontend development
-- 🌱 I’m currently learning backend development 
-- 💞️ I’m looking to collaborate on frontend projects 
-- 📫 How to reach me tiamiyualameen@ymail.com
-
-<!---
-AlmeenT/AlmeenT is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+HTML/CSS
+Creating a basic and fully responsive E-commerce site using basic front-end design knowledge (HTML,CSS & JavaScript)
+The E-commerce site should have a cart system for displaying products that the user would like to buy
+The products quantity could be increased or decreased from the cart system
+And each product could also be removed from cart directly from the cart system or on the product page
